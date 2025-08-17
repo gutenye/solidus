@@ -1,3 +1,5 @@
+- [README.guten.md](./README.guten.md)
+
 <img width="250" src="./logo.svg" alt="Solidus logo">
 
 # Solidus

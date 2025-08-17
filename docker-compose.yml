@@ -46,7 +46,7 @@ services:
     ports:
       - "${SANDBOX_PORT:-3000}:${SANDBOX_PORT:-3000}"
     volumes:
-      - .:/home/solidus_user/app:delegated
+      - .:/home/solidus_user/app
       - bundle:/home/solidus_user/gems:cached
       - history:/home/solidus_user/history:cached
       - .dockerdev/.psqlrc:/home/solidus_user/.psqlrc:cached
